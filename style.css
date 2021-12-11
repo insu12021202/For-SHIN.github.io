@@ -1,0 +1,142 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .carousel-item {
+    background-color: gray;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+  }
+  .carousel-item.item1 {
+    background-image: url('https://i.ibb.co/WnT4MkW/1.jpg');
+    background-position: center center;
+  }
+  .intro h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 18px;
+    font-weight: 500;
+  }
+  .intro h3 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 48px;
+    font-weight: 400;
+  }
+  .intro a {
+    font-size: 16px;
+    color: white;
+    background-color: #5900E7;
+    margin-bottom: 48px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  .carousel-item.item2 {
+    background-image: url('https://i.ibb.co/FxhMhKL/2.jpg');
+    background-position: left center;
+  }
+  .carousel-item.item3 {
+    background-image: url('https://i.ibb.co/W3SDd4D/3.png');
+    background-position: center center;
+  }
+  .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .intro {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .course {
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+  }
+  .course:hover {
+    text-decoration: none;
+  }
+  .course .info {
+    padding: 10px;
+    color: #4a4a4a;
+  }
+  .course .course-img {
+    display: block;
+  }
+  .course .info h4 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .course .info .name {
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  .course .info img,
+  .course .info .name {
+    vertical-align: middle;
+  }
+  .last {
+    text-align: center;
+  }
+  .tail {
+    font-size: 14px;
+    color: gray;
+  }
+  .music {
+    display: block;
+    float: right;
+    padding-right: 10px;
+  }
+  .music-box {
+    line-height: 39px;
+  }
+  button {
+    padding: 0;
+    border: none;
+    background: none;
+    opacity: 70%;
+  }
+  .stopBtn {
+    margin-left: 5px;
+  }
+  .info {
+    display: inline-block;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .about {
+    display: flex;
+    height: 100vh;
+    min-height: 600px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: #dcdcdc;
+  }
+  .about.info {
+    display: block;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+  }
+  .about h3 {
+    font-size: 70px;
+  }
+  .about h4 {
+    margin-top: 20px; 
+  }
+  #about-info h4 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  #about-info h5 {
+    font-size: 15px;
+  }
